@@ -1,8 +1,6 @@
 # ANGULAR PROJECTS
 ## Table of Contents
-<ol>
-[Personal Portfolio](#personal-portfolio)
-</ol>
+1. [Personal Portfolio](#personal-portfolio)
 
 ## Personal Portfolio
 TBD
