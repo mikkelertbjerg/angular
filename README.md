@@ -1,7 +1,7 @@
 # ANGULAR PROJECTS
 ## Table of Contents
 <ol>
-<li> [Personal Portfolio](#personal-portfolio)</li>
+[Personal Portfolio](#personal-portfolio)
 </ol>
 
 ## Personal Portfolio
