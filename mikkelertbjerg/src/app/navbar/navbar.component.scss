@@ -8,3 +8,25 @@ $secondary-color-light: #484848;
 $secondary-color-dark: #000000;
 $primary-font: "Oswald", "sans-serif";
 $secondary-font: "Roboto", "sans-serif";
+
+
+mat-toolbar {
+  background-color: $primary-color;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  span {
+    margin: 0 1em;
+    a {
+      &:hover{
+        padding: 1em;
+        border: solid $secondary-color-dark 3px;
+      }
+    }
+  }
+}
+
