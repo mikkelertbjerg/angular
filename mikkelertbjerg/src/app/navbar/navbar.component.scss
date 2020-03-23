@@ -1,32 +1,33 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap");
-
-$primary-color: #ff9800;
-$primary-color-light: #ffc947;
-$primary-color-dark: #c66900;
-$secondary-color: #212121;
-$secondary-color-light: #484848;
-$secondary-color-dark: #000000;
-$primary-font: "Oswald", "sans-serif";
-$secondary-font: "Roboto", "sans-serif";
-
+@import '../../styles.scss';
 
 mat-toolbar {
-  background-color: $primary-color;
-  display: flex;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  span {
-    margin: 0 1em;
-    a {
-      &:hover{
-        padding: 1em;
-        border: solid $secondary-color-dark 3px;
+  background-color: $primary;
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $text;
+    .menu {
+      ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li {
+          margin: 0 .5em;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bold;
+          button {
+            min-width: 100px;
+            border: solid 1px $text;
+          }
+        }
       }
     }
   }
 }
+
+
 

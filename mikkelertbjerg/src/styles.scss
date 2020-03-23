@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap");
+$primary: #212121;
+$primary-light: #484848;
+$primary-dark: #000000;
+$secondary: #ff9800;
+$secondary-light: #ffc947;
+$secondary-dark: #c66900;
+$text: #fff;
 
-$primary-color: #ff9800;
-$primary-color-light: #ffc947;
-$primary-color-dark: #c66900;
-$secondary-color: #212121;
-$secondary-color-light: #484848;
-$secondary-color-dark: #000000;
-$primary-font: "Oswald", "sans-serif";
-$secondary-font: "Roboto", "sans-serif";
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+}
